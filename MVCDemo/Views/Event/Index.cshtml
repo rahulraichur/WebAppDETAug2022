@@ -1,0 +1,15 @@
+﻿@using MVCDemo.Models
+@model List<Booking>
+@{
+}
+
+   No.of events @Model.Count
+
+    @foreach(Booking b in @Model)
+   {
+    <h3>
+        EVENT @b.Title
+        ON @b.Date
+        WITH @b.Quantity ASSOCIATES
+    </h3>
+   }
