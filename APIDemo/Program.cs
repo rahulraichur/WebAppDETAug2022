@@ -1,4 +1,10 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using APIDemo.Data;
+using APIDemo.Controllers;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<APIDemoContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("APIDemoContext") ?? throw new InvalidOperationException("Connection string 'APIDemoContext' not found.")));
 
 // Add services to the container.
 
@@ -21,5 +27,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+//app.MapUserEndpoints();
 
 app.Run();
