@@ -3,6 +3,8 @@ using WebAppPractise.Models;
 using static WebAppPractise.Models.ToDoContext;
 using Microsoft.Extensions.DependencyInjection;
 using WebAppPractise.Data;
+using Microsoft.AspNetCore.OData;
+using Microsoft.CodeAnalysis.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<WebAppPractiseContext>(options =>
@@ -10,7 +12,7 @@ builder.Services.AddDbContext<WebAppPractiseContext>(options =>
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddOData(Option => Option.Select().Filter());
 builder.Services.AddDbContext<TodoContext>(opt =>
     opt.UseInMemoryDatabase("TodoList"));
 builder.Services.AddSwaggerGen(c =>
