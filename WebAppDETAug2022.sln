@@ -13,13 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApiClient", "Console
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppPractice", "WebAppPractise\WebAppPractice.csproj", "{6D91046F-8972-4667-BA1F-72D113F176C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{7F50E08A-21F0-405C-80AF-4480D26992C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank", "Bank\Bank.csproj", "{7F50E08A-21F0-405C-80AF-4480D26992C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTests", "BankAccountTests.cs\BankTests.csproj", "{53F58D4E-95A4-4014-A8AE-4213210BA104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankTests", "BankAccountTests.cs\BankTests.csproj", "{53F58D4E-95A4-4014-A8AE-4213210BA104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstUnitTests", "MyFirstUnitTests\MyFirstUnitTests.csproj", "{051C25BF-9CCF-42B4-A472-357ECF68C4DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstUnitTests", "MyFirstUnitTests\MyFirstUnitTests.csproj", "{051C25BF-9CCF-42B4-A472-357ECF68C4DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaClassLibrary", "PizzaClassLibrary\PizzaClassLibrary.csproj", "{AAAC97CE-5482-4332-BC14-1EC4D0441A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaClassLibrary", "PizzaClassLibrary\PizzaClassLibrary.csproj", "{AAAC97CE-5482-4332-BC14-1EC4D0441A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDDemo", "TDDDemo\TDDDemo.csproj", "{98FEB7B2-62EE-4327-8512-868692FAF43A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.API", "Library.API\Library.API.csproj", "{9E3E6996-11F6-47F5-9CAC-9515C9BB9147}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksControllerTest", "BookTest\BooksControllerTest.csproj", "{8961C34B-C14C-4E9C-B5AE-9B7433D97822}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{AAAC97CE-5482-4332-BC14-1EC4D0441A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAAC97CE-5482-4332-BC14-1EC4D0441A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAAC97CE-5482-4332-BC14-1EC4D0441A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FEB7B2-62EE-4327-8512-868692FAF43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FEB7B2-62EE-4327-8512-868692FAF43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FEB7B2-62EE-4327-8512-868692FAF43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FEB7B2-62EE-4327-8512-868692FAF43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3E6996-11F6-47F5-9CAC-9515C9BB9147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3E6996-11F6-47F5-9CAC-9515C9BB9147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3E6996-11F6-47F5-9CAC-9515C9BB9147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3E6996-11F6-47F5-9CAC-9515C9BB9147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8961C34B-C14C-4E9C-B5AE-9B7433D97822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8961C34B-C14C-4E9C-B5AE-9B7433D97822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8961C34B-C14C-4E9C-B5AE-9B7433D97822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8961C34B-C14C-4E9C-B5AE-9B7433D97822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
